@@ -50,5 +50,3 @@ class ConfReader:
             raise ConfigKeyException
         
 
-config = ConfReader("test.conf")
-print(config.get_value("DOSS"))
